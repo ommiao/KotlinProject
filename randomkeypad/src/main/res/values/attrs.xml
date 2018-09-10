@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeypadKey">
+        <attr name="contentType" format="integer">
+            <flag name="value" value="1"/>
+            <flag name="image" value="2"/>
+        </attr>
+        <attr name="value" format="string" />
+        <attr name="src" format="reference"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+</resources>
